@@ -13,5 +13,5 @@ tasks:
 
   # Download server.cfg
   - action: download_file
-    url: https://raw.githubusercontent.com/servercfg/DevoNetwork/master/server/server.cfg
+    url:https://github.com/servercfg/DevoNetwork/tree/master/server
     path: ./server.cfg
