@@ -9,9 +9,9 @@ tasks:
     src: https://github.com/servercfg/DevoNetwork/tree/master/server
     ref: master
     subpath: resources
-    dest: resources
+    dest: ./resources
 
   # Download server.cfg
   - action: download_file
-    url:https://github.com/servercfg/DevoNetwork/tree/master/server
+    url:https://raw.githubusercontent.com/servercfg/DevoNetwork/master/server/server.cfg
     path: ./server.cfg
