@@ -11,7 +11,3 @@ tasks:
     src: https://github.com/servercfg/DevoNetwork
     ref: main
     dest: ./resources
-
-   - action: unzip
-   src: ./resources/DevoNetwork.zip
-   dest: ./jdjfjd
