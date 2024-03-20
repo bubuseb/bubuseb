@@ -1,13 +1,11 @@
 $engine: 3
 $onesync: on
-name: NexusRP
-version: 3.3.0
-author: Bubu65
-description: bubu 
-
-tasks:
-
+name: NexusFiler
+description: bubu
+tasks: 
+  # Download default CFX resources
   - action: download_github
     src: https://github.com/servercfg/DevoNetwork
-    ref: main
-    dest: ./resources
+    ref: master
+    subpath: server
+    dest: ./server
