@@ -1,17 +1,17 @@
 $engine: 3
 $onesync: on
-name: NexusFiler
-description: bubu
-tasks: 
+name: NF
+description: NF
 
-  # Download DevoNetwork
+tasks: 
+  # Download default CFX resources
   - action: download_github
-    src: https://github.com/servercfg/DevoNetwork/tree/master/server
+    src: https://github.com/servercfg/DevoNetwork/tree/master
     ref: master
     subpath: resources
     dest: ./resources
 
-  # Download server.cfg
+  # Download default server.cfg for FiveM
   - action: download_file
-    url:https://raw.githubusercontent.com/servercfg/DevoNetwork/master/server/server.cfg
+    url: https://raw.githubusercontent.com/servercfg/DevoNetwork/master/server/server.cfg
     path: ./server.cfg
