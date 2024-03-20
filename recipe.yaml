@@ -1,17 +1,17 @@
 $engine: 3
-$onesync: on
+$onesync: legacy
 name: NexusRP
-description: DanskRP, åbenthus
+version: 3.3.0
+author: Bubu65
+description: bubu 
 
-tasks: 
-  # Download default DevoNetwork resources
+tasks:
+
   - action: download_github
-    src: https://github.com/servercfg/DevoNetwork/tree/master
-    ref: master
-    subpath: resources
-    dest: resources
+    src: https://github.com/servercfg/DevoNetwork
+    ref: main
+    dest: ./resources
 
-  # Download default server.cfg for FiveM
-  - action: download_file
-    url: https://github.com/servercfg/DevoNetwork/blob/master/server/server.cfg
-    path: ./server.cfg
+   - action: unzip
+   src: ./resources/DevoNetwork.zip
+   dest: ./jdjfjd
