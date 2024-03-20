@@ -3,12 +3,13 @@ $onesync: on
 name: NexusFiler
 description: bubu
 tasks: 
+
   # Download DevoNetwork
   - action: download_github
-    src: https://github.com/servercfg/DevoNetwork.git
+    src: https://github.com/servercfg/DevoNetwork/tree/0cdc373fd9aa4b13a6a6d4a7b0584e473d7c0f05/server
     ref: master
     subpath: resources
-    dest: ./resources
+    dest: resources
 
   # Download server.cfg
   - action: download_file
