@@ -1,5 +1,5 @@
 $engine: 3
-$onesync: legacy
+$onesync: on
 name: NexusRP
 version: 3.3.0
 author: Bubu65
