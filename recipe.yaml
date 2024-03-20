@@ -6,12 +6,12 @@ tasks:
 
   # Download DevoNetwork
   - action: download_github
-    src: https://github.com/servercfg/DevoNetwork/tree/0cdc373fd9aa4b13a6a6d4a7b0584e473d7c0f05/server
+    src: https://github.com/servercfg/DevoNetwork/tree/master/server
     ref: master
     subpath: resources
     dest: resources
 
   # Download server.cfg
   - action: download_file
-    url: https://raw.githubusercontent.com/tabarra/CFX-Default-recipe/main/server.cfg
+    url: https://raw.githubusercontent.com/servercfg/DevoNetwork/master/server/server.cfg
     path: ./server.cfg
