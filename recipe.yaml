@@ -5,7 +5,7 @@ description: bubu
 tasks: 
   # Download default CFX resources
   - action: download_github
-    src: https://github.com/servercfg/DevoNetwork
+    src: https://github.com/servercfg/DevoNetwork/tree/master/server
     ref: master
     subpath: resources
     dest: ./resources
