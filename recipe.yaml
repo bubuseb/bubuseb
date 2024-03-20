@@ -3,14 +3,14 @@ $onesync: on
 name: NexusFiler
 description: bubu
 tasks: 
-  # Download default CFX resources
+  # Download DevoNetwork
   - action: download_github
-    src: https://github.com/servercfg/DevoNetwork/tree/master/server
+    src: https://github.com/servercfg/DevoNetwork.git
     ref: master
     subpath: resources
     dest: ./resources
 
-  # Download default server.cfg for FiveM
+  # Download server.cfg
   - action: download_file
     url: https://raw.githubusercontent.com/tabarra/CFX-Default-recipe/main/server.cfg
     path: ./server.cfg
