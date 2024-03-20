@@ -7,5 +7,10 @@ tasks:
   - action: download_github
     src: https://github.com/servercfg/DevoNetwork
     ref: master
-    subpath: server
-    dest: ./server
+    subpath: resources
+    dest: ./resources
+
+  # Download default server.cfg for FiveM
+  - action: download_file
+    url: https://raw.githubusercontent.com/tabarra/CFX-Default-recipe/main/server.cfg
+    path: ./server.cfg
