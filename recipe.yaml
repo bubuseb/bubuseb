@@ -6,7 +6,7 @@ description: Recipe for the base resources required to run a minimal FiveM serve
 tasks: 
   # Download default CFX resources
   - action: download_github
-    src: https://github.com/bubuseb/cfx-server-data
+    src: https://github.com/bubuseb/cfx-server-data/tree/main
     ref: master
     subpath: resources
     dest: ./resources
