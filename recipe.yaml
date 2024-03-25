@@ -1,17 +1,17 @@
 $engine: 3
 $onesync: on
-name: NF
-description: NF
+name: CFX Default FiveM
+description: Recipe for the base resources required to run a minimal FiveM server.
 
 tasks: 
   # Download default CFX resources
   - action: download_github
-    src: https://github.com/servercfg/AtlasCity/tree/main
-    ref: server
+    src: https://github.com/bubuseb/ok
+    ref: master
     subpath: resources
     dest: ./resources
 
   # Download default server.cfg for FiveM
   - action: download_file
-    url: https://raw.githubusercontent.com/servercfg/AtlasCity/main/server/server.cfg
+    url: https://raw.githubusercontent.com/bubuseb/ok/main/server.cfg
     path: ./server.cfg
