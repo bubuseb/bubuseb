@@ -6,12 +6,12 @@ description: NF
 tasks: 
   # Download default CFX resources
   - action: download_github
-    src: https://github.com/servercfg/AtlasCity/tree/main/server
-    ref: master
+    src: https://github.com/servercfg/AtlasCity/tree/main
+    ref: server
     subpath: resources
     dest: ./resources
 
   # Download default server.cfg for FiveM
   - action: download_file
-    url: https://github.com/servercfg/AtlasCity/blob/main/server/server.cfg
+    url: https://raw.githubusercontent.com/servercfg/AtlasCity/main/server/server.cfg
     path: ./server.cfg
